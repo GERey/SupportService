@@ -18,6 +18,7 @@ for more information on specific feature flags and use cases.
 - Clone the repo locally `git clone https://github.com/launchdarkly/SupportService.git`
 - Copy `.env.example` to `.env` and fill in the correct values, without quotes:
 
+        // You can find the settings for your app here: https://app.launchdarkly.com/settings/projects.
         LD_CLIENT_KEY=$YOUR_SDK_KEY
         LD_FRONTEND_KEY=$YOUR_FRONTEND_ID
         LD_API_KEY=$YOUR_LD_API_KEY (obtained from <https://app.launchdarkly.com/settings/authorization>)
